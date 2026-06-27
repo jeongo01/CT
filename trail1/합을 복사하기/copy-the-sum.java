@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+        int a = 1, b=2, c=3;
+        int sum = 0;
+        sum = a+b+c;
+        a = sum;
+        b = sum;
+        c = sum;
+
+        System.out.println(a + " " + b + " " + c);
+    }
+}
